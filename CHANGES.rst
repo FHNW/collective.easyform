@@ -2,9 +2,15 @@ Changelog
 =========
 
 2.0.0b2dev0 (unreleased)
-2.0.0b1 (2017-06-14)
---------------------
 ------------------------
+
+FHNW Patches:
+
+- No default fields on form creation
+
+- Use FHNW email template https://gitlab.fhnw.ch/webteam/fhnw.webauftritt/issues/770
+  [karalics,tomgross]
+
 
 Breaking changes:
 
