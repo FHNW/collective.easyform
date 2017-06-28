@@ -34,14 +34,6 @@ Bug fixes:
 2.0.0b1 (2017-06-14)
 --------------------
 
-Fixes:
-
-- Update german translations. 
-Fixes:
-
-2.0.0b1 (2017-06-14)
---------------------
-
 - Update german translations.
   [tomgross, jensens]
 
