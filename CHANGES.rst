@@ -17,10 +17,25 @@ FHNW Patches:
 - Use FHNW email template https://gitlab.fhnw.ch/webteam/fhnw.webauftritt/issues/770
   [karalics,tomgross]
 
+2.0.0b2 (unreleased)
+--------------------
 
 Breaking changes:
 
 - *add item here*
+
+New features:
+
+- *add item here*
+
+Bug fixes:
+
+- In the schema editor for fields, Fix the URL to ACE library according to the modeleditor in plone.app.dexterity.
+  [thet]
+
+
+2.0.0b1 (2017-06-14)
+--------------------
 
 New features:
 
@@ -60,6 +75,7 @@ Bug fixes:
 
 - Allow managment of fields enabled for c.easyform in controlpanel
   [karalics]
+
 
 2.0.0a2 (2016-10-14)
 --------------------
