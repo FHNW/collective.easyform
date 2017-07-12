@@ -1,6 +1,7 @@
 Changelog
 =========
 
+
 2.0.0b2 (unreleased)
 --------------------
 
@@ -11,6 +12,34 @@ Breaking changes:
 New features:
 
 - Enhance file validation view with type check
+
+Bug fixes:
+
+- In the schema editor for fields, Fix the URL to ACE library according to the modeleditor in plone.app.dexterity.
+  [thet]
+
+- Fix saver action with non ASCII filename uploads #77
+  [tomgross]
+
+
+2.0.0b1.post2 (2017-06-28)
+--------------------------
+
+FHNW Patches:
+
+- No default fields on form creation
+
+- Use FHNW email template https://gitlab.fhnw.ch/webteam/fhnw.webauftritt/issues/770
+  [karalics,tomgross]
+
+
+2.0.0b1 (2017-06-14)
+--------------------
+
+New features:
+
+- Add filesize upload validator
+
   [tomgross]
 
 Bug fixes:
