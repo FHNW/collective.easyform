@@ -10,7 +10,8 @@ Breaking changes:
 
 New features:
 
-- *add item here*
+- Enhance file validation view with type check
+  [tomgross]
 
 Bug fixes:
 
