@@ -5,8 +5,17 @@ Changelog
 2.0.0b1.post4 (unreleased)
 --------------------------
 
-- Nothing changed yet.
+Breaking changes:
 
+- *add item here*
+
+New features:
+
+- *add item here*
+
+Bug fixes:
+
+- Fix action URLs to savedata, export, import
 
 2.0.0b1.post3 (2017-07-13)
 --------------------------
