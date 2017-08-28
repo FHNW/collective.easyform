@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.0.0b1.post4 (unreleased)
+2.0.0b1.post4 (2017-08-28)
 --------------------------
 
 Breaking changes:
