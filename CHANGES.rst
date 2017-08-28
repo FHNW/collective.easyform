@@ -11,7 +11,7 @@ Breaking changes:
 
 New features:
 
-- *add item here*
+- Base64 encoding for logo in E-Mail
 
 Bug fixes:
 
