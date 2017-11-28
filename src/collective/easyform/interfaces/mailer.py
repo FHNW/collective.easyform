@@ -12,7 +12,6 @@ from Products.CMFPlone.utils import safe_unicode
 from validators import isTALES
 from z3c.form.browser.checkbox import CheckBoxFieldWidget
 from z3c.form.browser.textarea import TextAreaWidget
-from zope.schema.interfaces import IContextAwareDefaultFactory
 
 import zope.i18nmessageid
 import zope.interface

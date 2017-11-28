@@ -123,7 +123,6 @@ def get_schema(context):
 
 # caching this breaks with memcached
 def get_actions(context):
-    data = context.actions_model
     try:
         data = context.actions_model
     except AttributeError:
