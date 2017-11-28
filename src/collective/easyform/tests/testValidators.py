@@ -230,13 +230,13 @@ class TestSizeValidator(base.EasyFormTestCase):
     def test_filiesize_bigsize_validation(self):
         self.assertEqual(
             translate(self.validate_view(DummyFile(1000000000))),
-            u'The uploaded file is bigger than the allowed size of 1048576 bytes!'  # noqa
+            u'File is bigger than allowed size of 1048576 bytes!'
         )
 
     def test_filiesize_bigsize_custom_validation(self):
         self.assertEqual(
             translate(self.validate_view(DummyFile(1025), 1024)),
-            u'The uploaded file is bigger than the allowed size of 1024 bytes!'
+            u'File is bigger than allowed size of 1024 bytes!'
         )
 
     def test_forbidden_type_validation_fail(self):
@@ -244,7 +244,7 @@ class TestSizeValidator(base.EasyFormTestCase):
             DummyFile(filename='foo.ZIP'), forbidden_types=('zip',))
         self.assertEqual(
             translate(validation),
-            u"The type 'zip' of the uploaded file is not allowed!"
+            u'File type "ZIP" is not allowed!'
         )
 
     def test_forbidden_type_validation_pass(self):
@@ -257,7 +257,7 @@ class TestSizeValidator(base.EasyFormTestCase):
             DummyFile(filename='foo.ZIP'), allowed_types=('txt',))
         self.assertEqual(
             translate(validation),
-            u"The type 'zip' of the uploaded file is not allowed!"
+            u'File type "ZIP" is not allowed!'
         )
 
     def test_allowed_type_validation_pass(self):
@@ -270,5 +270,5 @@ class TestSizeValidator(base.EasyFormTestCase):
             DummyFile(filename='foo'), allowed_types=('txt',))
         self.assertEqual(
             translate(validation),
-            u"The type '' of the uploaded file is not allowed!"
+            u'File type "" is not allowed!'
         )

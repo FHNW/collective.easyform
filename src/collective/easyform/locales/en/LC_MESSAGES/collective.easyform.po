@@ -808,11 +808,11 @@ msgstr ""
 
 #: collective/easyform/browser/view.py:329
 msgid "msg_file_not_allowed"
-msgstr "The type '${ftype}' of the uploaded file is not allowed!"
+msgstr ""
 
 #: collective/easyform/browser/view.py:322
 msgid "msg_file_too_big"
-msgstr "The uploaded file is bigger than the allowed size of ${size} bytes!"
+msgstr ""
 
 #. Default: "Comma-Separated Values"
 #: collective/easyform/vocabularies.py:65

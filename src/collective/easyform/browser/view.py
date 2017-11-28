@@ -332,14 +332,14 @@ class ValidateFile(BrowserView):
         if allowed_types and ftype not in allowed_types:
             return _(
                 'msg_file_not_allowed',
-                mapping={'ftype': ftype},
-                default=u'File type ${ftype} is not allowed!'
+                mapping={'ftype': ftype.upper()},
+                default=u'File type "${ftype}" is not allowed!'
             )
         if forbidden_types and ftype in forbidden_types:
             return _(
                 'msg_file_not_allowed',
-                mapping={'ftype': ftype},
-                default=u'File type ${ftype} is not allowed!'
+                mapping={'ftype': ftype.upper()},
+                default=u'File type "${ftype}" is not allowed!'
             )
         return False
 

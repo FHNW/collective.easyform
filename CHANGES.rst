@@ -33,6 +33,11 @@ Bug fixes:
   [sverbois]
 
 - Fix action URLs to savedata, export, import
+  [tomgross]
+
+- Fix display of values in mailer template  #76
+  [tomgross]
+
 
 2.0.0b2 (2017-08-31)
 --------------------
